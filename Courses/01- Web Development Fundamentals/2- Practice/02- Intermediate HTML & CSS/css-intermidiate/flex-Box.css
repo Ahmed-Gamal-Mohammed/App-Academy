@@ -1,0 +1,75 @@
+.parent{
+    background: black;
+    padding: 10px;
+    font-size: xx-large;
+    font-weight: bold;
+
+    display: flex;
+
+    /*
+        if flex-direction == row
+            justify-content  ==> X
+            align-content    ==> Y
+            align items      ==> Y
+
+================================================
+
+        if flex-direction == column
+            justify-content  ==> Y
+            align-content    ==> X  to can use it u need to use wrap
+            align items      ==> X used without wrap
+
+    */
+
+    /*
+    I-  flex-direction contain four directions
+        1- row   2- column  3- row-reverse  4- column-reverse
+    II- flex-wrap contain three values
+        1- wrap   2- nowrap  3- wrap-reverse
+
+    III- justify-content contain six values, and its control items horizontally
+        1- flex-start  2- flex-end  3- center  4- space-between  5-space-around  6- space-evenly
+
+    IV- align-content
+        1- flex-start  2- flex-end   3- center  4- space-between  5-space-around
+
+    IV- Order
+        order the item, the default value is 0
+
+    V- flex-grow
+        for controling the size of the item by growing or dicreasing it
+
+    VI- flex-basis
+        For controling the width and height of the item
+
+    VII-Flex-shrink
+        For control the shrink انكماش of the items
+
+    VIII- Flex
+        Flex is a shortcut for flex-grow,flex-basis and flex-shrink
+
+    IX-- Gap
+        For controling the spaces between the items and its only for parents
+
+
+    */
+
+}
+.parent div{
+    padding: 10px;
+    margin: 10px;
+}
+
+.item1{
+    background-color: aqua;
+
+}
+.item2{
+    background-color: blueviolet;
+}
+.item3{
+    background-color: violet;
+}
+.item4{
+    background-color: brown;
+}

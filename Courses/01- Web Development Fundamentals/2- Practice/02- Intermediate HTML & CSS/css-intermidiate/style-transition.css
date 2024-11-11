@@ -1,0 +1,84 @@
+.hello{
+    height: 30px;
+    width: 180px;
+    background: black;
+    color: white;
+    font-size: xx-large;
+
+    /* for making animation */
+    /*
+        There are some properties for transitoin
+        ==============================================
+        1- duration
+            - its for specify the time taked on the transition
+            - you can specify multiple elements type, separete between them with comma (,)
+            - the defalut is all
+        2- timing functoin (property specifies the speed curve of the transition effect )
+
+            - ease        ===> specify a transition effect with slow start, then fast, the end slow
+            - linear      ===> specify a transition effect with the same speed from start to end
+            - ease-in     ===> specify a transition effect with a slow start
+            - ease-out    ===> specify a transition effect with a slow end
+            - ease-in-out ===> specify a transition effect with a slow start and end
+            - steps()     ===> number of steps that
+            - step-end    ===> it will step to the end
+            -step-start   ===> it will step first thing
+
+        3- delay
+            how many times it waitnig before do the transitoin
+
+
+    */
+    transition: height 3s, width 4s steps(5);
+
+}
+
+.hello:hover{
+    width: 100%;
+    height: 360px;
+    background:darkred ;
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+#delay {
+    font-size: 54px;
+    transition-property: font-size;
+    transition-duration: 4s;
+    transition-delay: 2s;
+}
+
+#delay:hover {
+    font-size: 76px;
+}
+
+.box{
+    border: solid 1px white;
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: #0000ff;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.box:hover{
+    background-color: #ffcccc;
+    width: 200px;
+    height: 200px;
+    transform: rotate(360deg);
+}
+
+@keyframes example{
+    from{background-color: red;}
+    to{background-color: black;}
+}
+
+.ex{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 2s;
+}

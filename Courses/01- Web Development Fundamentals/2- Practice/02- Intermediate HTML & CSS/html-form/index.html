@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Building Surveying Form</title>
+</head>
+<body>
+    <h1>This is Survying form</h1>
+
+    <form accept="/form-handling-url" method="post">
+        <fieldset>
+            <legend>Add User</legend>
+            <div>
+                <label for="FirstName"> First Name</label>
+                <input type="text" name="first_name" id="FirstName" required>
+            </div>
+
+            <div>
+                <label for="LastName">Last Name</label>
+                <input type="text" name="last_name" id="LastName" required>
+            </div>
+
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email_address" id="email" required>
+            </div>
+
+            <div>
+                <label for="status">Status</label>
+                <select name="status_name" id="status" required>
+                    <option value="student">Student</option>
+                    <option value="teacher">Teacher</option>
+                    <option value="guest">Guest</option>
+                </select>
+            </div>
+
+            <div>
+                <p>Choose your favorite programming language:</p>
+                <label>
+                    <input type="radio" name="language" value="HTML" required> HTML
+                </label><br>
+                <label>
+                    <input type="radio" name="language" value="CSS"> CSS
+                </label><br>
+                <label>
+                    <input type="radio" name="language" value="JavaScript"> JavaScript
+                </label>
+            </div>
+
+
+            <div>
+                <label for="comment">Comments</label>
+                <textarea name="comment" id="comment"></textarea>
+            </div>
+
+            <div>
+                <br>
+                <label for="cuurent_date">Current Date</label>
+                <input type="date" name="cuurent_date" id="cuurent_date" required>
+            </div>
+
+            <div>
+                <br>
+                <label for="checkbox">Sign up for newsletter</label>
+                <input type="checkbox">
+            </div>
+
+            <div>
+                <label for="checkbox">Agree to terms and conditions</label>
+                <input type="checkbox" required>
+                <br>
+            </div>
+
+
+            <div>
+                <br>
+                <button name="sumbit">Submit</button>
+            </div>
+
+        </fieldset>
+    </form>
+
+</body>
+</html>

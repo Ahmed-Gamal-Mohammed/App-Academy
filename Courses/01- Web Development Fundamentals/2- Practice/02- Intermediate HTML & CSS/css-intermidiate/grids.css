@@ -1,0 +1,123 @@
+*{
+    background-color: blueviolet;
+}
+.parent{
+    background-color: black;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    height: 500px;
+
+    /*  */
+     display: grid; /* if you want to use grid, so you must write grid */
+
+    /*
+
+    You can identify the value of the column and rows by the following
+        1- By precentage
+        2- By auto
+        3- By px (pixel)
+        4- fr (fraction)
+        5- repeat(the number of columns, number of repeats)
+        6- minmax(the minimum value, the maximum value) you can put one of the min or max values with auto
+        7- auto-fill ===> whenever you grow the width, then the number of columns or rows increase, same thing for decreasing the width or hight
+
+    */
+    grid-template-columns: auto auto auto auto ;
+    grid-template-rows: auto;
+
+    column-gap: 10px;
+    row-gap: 10px;  /*  You can use gap instead of column and row , and give its the value of gap for row followed by value of gap for column   */
+
+    /* if you want to use justify-content, don't use fr (fractoin)  */
+
+    /* if you want to use align-content, You must put hight for your items  */
+
+}
+
+.parent div{
+    background-color: crimson;
+}
+
+.parent .item1{
+    background-color: rgb(44, 51, 51);
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+.application{
+
+
+    font-size: xx-large;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    color: white;
+
+    background-color: blue;
+
+    display: grid;
+
+
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr 1fr;
+    gap: 10px;
+
+}
+.application div{
+    background-color: blue
+}
+
+
+.application .header{
+    border: 5px solid white;
+    grid-column: 1/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.application .nav{
+    border: 5px solid white;
+    grid-row: 2/4;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    background-color: rgb(17, 96, 185);
+
+    height:300px;
+
+}
+
+
+.application .Main{
+    border: 5px solid white;
+    grid-row: 2/4;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    background-color: rgb(1, 219, 219);
+    height:300px;
+}
+
+.application .sidebar{
+    border: 5px solid white;
+    grid-row: 2/4;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    background-color: rgb(17, 96, 185);
+    height:300px;
+
+
+}
+
+.application .footer{
+    border: 5px solid white;
+    grid-column: 1/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

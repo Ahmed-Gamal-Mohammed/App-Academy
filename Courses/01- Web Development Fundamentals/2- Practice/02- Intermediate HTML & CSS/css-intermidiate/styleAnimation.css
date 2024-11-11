@@ -1,0 +1,62 @@
+*{
+    background-color: indianred;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    animation-name: square;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-play-state: running;
+
+    /* you can delete all of the above and use the shortcut animation
+
+    animation: name  duration  timing-function  delay  iteration-count  directoin  fill-mode   paly-state
+
+    */
+
+}
+
+@keyframes square {
+    0%{
+        translate: 0 0;
+        background-color: aqua;
+        rotate: 180deg;
+    }
+
+    25%{
+        translate: 0 500px;
+        background-color: blueviolet;
+        rotate: 270deg;
+    }
+
+    50%{
+        translate: 720px 500px;
+        background-color: blueviolet;
+        rotate: 270deg;
+    }
+
+    75%{
+        translate:  720px 0;
+        background-color: rgb(141, 143, 143);
+        rotate: 180deg;
+    }
+
+    100%{
+        translate: 0 0;
+        background-color: rgb(141, 143, 143);
+        rotate: 180deg;
+    }
+
+}
+
+div:hover{
+    animation-play-state: paused;
+    cursor: pointer;
+}
