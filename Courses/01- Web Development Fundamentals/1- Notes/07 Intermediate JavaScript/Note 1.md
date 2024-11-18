@@ -19,3 +19,8 @@ There are two ways that you can run JS code
 2- **.JS file**
 	 - are used for saving code for the long term
 	 - When you work on problem sets, projects, and anything else you want to save, you should always save your code to a `.js` file!
+
+---
+# Non-standard For Loops
+So far, you've probably been using for-loops the same way: iterating through an array like structure one by one; but for-loops are much more flexible than that and can be used in many different situations.
+
