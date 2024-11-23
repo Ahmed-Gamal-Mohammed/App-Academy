@@ -23,4 +23,46 @@ There are two ways that you can run JS code
 ---
 # Non-standard For Loops
 So far, you've probably been using for-loops the same way: iterating through an array like structure one by one; but for-loops are much more flexible than that and can be used in many different situations.
+# Introduction to Cypress Testing
+- Cypress can be used to test anything that runs in a web browser, including basic HTML and CSS code, React applications , and applications built with other tech stacks. 
+## installing Cypress 
+In any App Academy practice or assessment project that includes Cypress tests, you will notice the following items in the directory structure:
+
+- **package.json** file - includes all packages and dependencies needed for the project (including Cypress)
+- **cypress.json** file - includes some configuration for the Cypress tests
+- **cypress** directory - includes the test file(s), typically within the **integration** directory.
+```
+For example 
+--------------------------------------------------------------------
+cypress-example-project
+|__ package.json
+|__ cypress.json
+|__ cypress
+  |__ integration
+    |__ test-spec.js
+```
+---
+## Common Error Messages
+Sometimes a test will fail if the HTML element described in the test cannot be found on the page. This is called an Assertion Error.
+```
+AssertionError: Timed out retrying after 4000ms: Expected to find element: `img`, but never found it.
+      at Context.eval (http://localhost:64833/__cypress/tests?p=cypress/integration/test.spec.js:184:19)
+```
+In this error, we can see that the `img` tag was not found. The bottom line shows us exactly where we can look in the test file to see what the test was looking for.
+
+
+In other cases, the correct HTML element may be found, but the text within the `.should()` assertion is not true. In this case, the test result will show you what the test was expecting to find (in green text, with a +) and what it found instead (in red text, with a -). This example shows that the test failed because the test expected to find a link to **form.html**, but failed because it found a link to **forms.html**.
+
+```
+  4) Elements on index.html
+       has a link to the form page
+
+      Timed out retrying after 4000ms
+      + expected - actual
+
+      -'forms.html'
+      +'form.html'
+      
+      at Context.eval (http://localhost:64884/__cypress/tests?p=cypress/integration/test.spec.js:120:73)
+```
 

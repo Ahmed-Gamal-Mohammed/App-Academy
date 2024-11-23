@@ -1,0 +1,182 @@
+{
+  "main": {
+    "id": "e1a9e4ee7038c4fe",
+    "type": "split",
+    "children": [
+      {
+        "id": "08eff62ba77f3fbe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ff17ec3b689fa811",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 Introduction to JavaScript/02 Functoin.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "02 Functoin"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d5e7f328699e395d",
+    "type": "split",
+    "children": [
+      {
+        "id": "851745f3539e9ab3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "771a1bf8622c1e35",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "9c32446e32a66940",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "e4bee979213ccf38",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "f470e762d1b2bb9d",
+    "type": "split",
+    "children": [
+      {
+        "id": "186702e8be677e94",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bc734a7edc52ffbf",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "01 Introduction to JavaScript/01 Expressions - Getting Started.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 01 Expressions - Getting Started"
+            }
+          },
+          {
+            "id": "e5285b197934d091",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "01 Introduction to JavaScript/01 Expressions - Getting Started.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 01 Expressions - Getting Started"
+            }
+          },
+          {
+            "id": "b5c6fcfe772d3e83",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "4a337ca0321c6246",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "01 Introduction to JavaScript/01 Expressions - Getting Started.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 01 Expressions - Getting Started"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false,
+      "markdown-importer:Open format converter": false
+    }
+  },
+  "active": "ff17ec3b689fa811",
+  "lastOpenFiles": [
+    "01 Introduction to JavaScript/01 Expressions - Getting Started.md",
+    "01 Introduction to JavaScript/02 Functoin.md",
+    "README.md",
+    "06 Additional Practice",
+    "07 Advanced Array Methods",
+    "05 Advanced Array",
+    "04 intermediate array",
+    "Untitled.md",
+    "03 intermediate javascript",
+    "02 control flow",
+    "01 Introduction to JavaScript"
+  ]
+}
