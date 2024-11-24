@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Introduction to JavaScript/02 Functoin.md",
+                "file": "02 control flow/01 Control Flow Decisions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02 Functoin"
+              "title": "01 Control Flow Decisions"
             }
           }
         ]
@@ -167,8 +167,9 @@
   },
   "active": "ff17ec3b689fa811",
   "lastOpenFiles": [
-    "01 Introduction to JavaScript/01 Expressions - Getting Started.md",
     "01 Introduction to JavaScript/02 Functoin.md",
+    "02 control flow/01 Control Flow Decisions.md",
+    "01 Introduction to JavaScript/01 Expressions - Getting Started.md",
     "README.md",
     "06 Additional Practice",
     "07 Advanced Array Methods",
