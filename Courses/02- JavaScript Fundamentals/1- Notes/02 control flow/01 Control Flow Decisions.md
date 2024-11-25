@@ -1,5 +1,0 @@
-- **Control Flow** is the order in which instructions are executed within a program 
-- []==> are **Square Brackets** 
-- **{}**==> are **curly Braces**
-- **()**==> are **parentheses**
-- 
