@@ -1,0 +1,30 @@
+- **To initialize an array use the following syntax `let name_of_array = [];` ==> then put anything you want between two brackets (characters, strings, integer) or even another array**
+- between any two values in the array just put comma `let arr = ['a','b']`
+- you can calculate the length of the array using length function as following `arr.length` ==> **will give you the length of the array**
+- **Array can contain multiple values together** which mean the array can contain **int , char, string and even another array** all in the same array
+	- `let numbersAndLetters = ["b", "z", 17, "cat"];`
+- You can git any index of the array using the [] brackets
+	- `console.log(numbersAndLetters[0]); ==> "b"`
+	- `console.log(numbersAndLetters[1]); ==> "z"`
+	- `console.log(numbersAndLetters[2]); ==> 17
+	- `console.log(numbersAndLetters[3]); ==> "cat"`
+- Arrays always indexed **from 0 not 1**
+- We can access a value in an array directly by providing an index for the value we'd like to access in that array (**array[index]**) 
+	- `console,log(['a','b', 'c'][0];` ==> "a"
+	- `console,log(['a','b', 'c'][1];`==> "b"
+	- `console,log(['a','b', 'c'][2];`==> "c"
+	- `console,log(['a','b', 'c'][3];`==> **undefined**
+- **if you tried to access an element at an index that is not inside the array, we get back ==>undefined**
+- we can also calculate the index of a given value within an array by using **indexOf**
+	- `console.log([1, 3, 5, "apple", "jet"].indexOf(3)); // => 1`
+	- `console.log([1, 3, 5, "apple", "jet"].indexOf(5)); // => 2`
+	- `console.log([1, 3, 5, "apple", "jet"].indexOf("jet")); // => 4`
+	 // this won't be found in the array
+	- `console.log([1, 3, 5, "apple", "jet"].indexOf("potato")); // => -1`
+	- if you attempt to search for a value that is not present in an array, **indexOf** will return **-1**
+- Concatenation with arrays
+	- As a reminder, concatenation is just a fancy word for joining things together into a single collection. Now, this is where arrays will differ from strings. The `+` operator only exists for numbers and strings. If you try to use the `+` on an array it will try to help you out by _converting your arrays into strings_.
+	- `console.log([1, 2, 3] + [4, 5, 6]); // => 1,2,34,5,6`
+	- JavaScript was just trying to help! However that is probably not what you meant to do. Good thing JavaScript has a seperate method for putting two arrays together. To concatenate arrays, we can use the aptly named `.concat` method:
+	- `console.log([1, 2, 3].concat([4, 5, 6])); // => [1, 2, 3, 4, 5, 6]`
+
