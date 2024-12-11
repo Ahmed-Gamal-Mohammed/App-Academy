@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "e1a9e4ee7038c4fe",
+    "id": "dc19e7ec1c81d757",
     "type": "split",
     "children": [
       {
-        "id": "08eff62ba77f3fbe",
+        "id": "bebc2840d8ca4e92",
         "type": "tabs",
         "children": [
           {
-            "id": "ff17ec3b689fa811",
+            "id": "c40db3753b0b36e5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 intermediate javascript/05 2D Array.md",
+                "file": "02 Objects/01 plain old JavaScript Object.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "05 2D Array"
+              "title": "01 plain old JavaScript Object"
             }
           }
         ]
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "d5e7f328699e395d",
+    "id": "9f82fa73794b2f45",
     "type": "split",
     "children": [
       {
-        "id": "851745f3539e9ab3",
+        "id": "12097eebf447634c",
         "type": "tabs",
         "children": [
           {
-            "id": "771a1bf8622c1e35",
+            "id": "b022432e303aad12",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -47,7 +47,7 @@
             }
           },
           {
-            "id": "9c32446e32a66940",
+            "id": "73a7b43f530ffbe8",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -64,7 +64,7 @@
             }
           },
           {
-            "id": "e4bee979213ccf38",
+            "id": "8249323d2ffd58c9",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -77,23 +77,24 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
-    "id": "f470e762d1b2bb9d",
+    "id": "ffa52c52ec4f9460",
     "type": "split",
     "children": [
       {
-        "id": "186702e8be677e94",
+        "id": "8052564aebabf45b",
         "type": "tabs",
         "children": [
           {
-            "id": "bc734a7edc52ffbf",
+            "id": "ea2b449f4e8c69ac",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 Introduction to JavaScript/01 Expressions - Getting Started.md",
+                "file": "01 pair Programming/Note 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 01 Expressions - Getting Started"
+              "title": "Backlinks for Note 2"
             }
           },
           {
-            "id": "e5285b197934d091",
+            "id": "e328af36ce1611c9",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 Introduction to JavaScript/01 Expressions - Getting Started.md",
+                "file": "01 pair Programming/Note 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 01 Expressions - Getting Started"
+              "title": "Outgoing links from Note 2"
             }
           },
           {
-            "id": "b5c6fcfe772d3e83",
+            "id": "a73bdf50d0931077",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -134,15 +135,15 @@
             }
           },
           {
-            "id": "4a337ca0321c6246",
+            "id": "365a712d1c511c25",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 Introduction to JavaScript/01 Expressions - Getting Started.md"
+                "file": "01 pair Programming/Note 2.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 01 Expressions - Getting Started"
+              "title": "Outline of Note 2"
             }
           }
         ]
@@ -159,29 +160,17 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "audio-recorder:Start/stop recording": false,
-      "markdown-importer:Open format converter": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "ff17ec3b689fa811",
+  "active": "c40db3753b0b36e5",
   "lastOpenFiles": [
-    "03 intermediate javascript/04 Data types.md",
-    "03 intermediate javascript/05 2D Array.md",
-    "03 intermediate javascript/03 intermediate functions.md",
-    "03 intermediate javascript/02 Array.md",
-    "03 intermediate javascript/01 Problem solving II.md",
-    "02 control flow/01 Control Flow Decisions.md",
-    "01 Introduction to JavaScript/02 Functoin.md",
-    "01 Introduction to JavaScript/01 Expressions - Getting Started.md",
+    "01 pair Programming/Note 2.md",
+    "02 Objects/01 plain old JavaScript Object.md",
+    "02 Objects",
+    "01 pair Programming/02 Objects",
     "README.md",
-    "06 Additional Practice",
-    "07 Advanced Array Methods",
-    "05 Advanced Array",
-    "04 intermediate array",
-    "Untitled.md",
-    "03 intermediate javascript",
-    "02 control flow",
-    "01 Introduction to JavaScript"
+    "01 pair Programming/Note 1.md",
+    "01 pair Programming"
   ]
 }
