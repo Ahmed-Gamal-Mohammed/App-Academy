@@ -221,4 +221,110 @@ for(let key in obj){
 Rose
 4
 ```
+---
+# Methods `Vs` Function 
+**Method** is essentially a function that belongs to an object. 
+That means that every method is a function, but `not` every function is a method
+- `myFunc` is a function 
+- `myObject.myFunc` is a method of the object `myObject`
+- `myObject["myFunc"]` is a method of the object `myObject`
 
+A method is just a key-value pair where the **key is the function name and the value is the function definition** 
+
+```
+let dog = {name: "Fido"};
+
+// defining a new kay-value pair where the *function name* is the key 
+// the function itself is the value!
+
+dog.bark = function(){
+	console.log("bark bark!");
+}
+
+// this is the same thing as above just using Bracket notation 
+dog["speak"] = function(string){
+	console.log("WOOF" + string + "WOOF!!!");
+}
+
+dog.bark(); // prints 'bark bark!'
+dog.speack("Pizza"); // prints WOOF Pizza WOOF!!!
+```
+
+Additionally, we can give objects methods when we initialize them:
+
+```
+// We can give object methods when initiaize them:
+
+let dogs = {
+
+name: "Rover",
+
+bark: function(){
+
+console.log("bork bork!");
+
+},
+
+speak: function(string){
+
+console.log("BOOORK " + string + " BOOOORK!!!");
+
+}
+
+};
+
+  
+
+dogs.bark();    // bork bork!
+
+dogs.speak("burrito"); // BOOORK burrito BOOOORK!!!
+```
+
+---
+# Useful Object Methods
+
+## Iterating through keys using **`Object.keys`**
+The `Object.keys` method accepts an object as the argument and returns an array of the _keys_ within that Object.
+```
+> let dog = {name: "Fido", age: "2"}
+undefined
+
+> Object.keys(dog)
+['name', 'age']
+
+> let cup = {color: "Red", contents: "coffee", weight: 5}
+undefined
+
+> Object.keys(cup)
+['color', 'contents', 'weight']
+```
+The return value of `Object.keys` method is an array of keys - which is useful for iterating!
+
+## Iterating through keys using **`Object.values`**
+The `Object.values` method accepts an object as the argument and returns an array of the _values_ within that Object.
+```
+> let dog = {name: "Fido", age: "2"}
+undefined
+
+> Object.values(dog)
+['Fido', '2']
+
+> let cup = {color: "Red", contents: "coffee", weight: 5}
+undefined
+
+> Object.values(cup)
+['Red', 'coffee', 5]
+```
+The return value of `Object.values` method is an array of values - which is useful for iterating!
+
+## Iterating through an Object's keys & values
+So we have gone over how `Object.keys` gives you the keys on an object and `Object.values` gives you the values, but what if you want both the _keys_ and the _values_ corresponding to each other in an array?
+
+The `Object.entries` method accepts an object as the argument and returns an array of the `[key, value]` pairs within that Object.
+```
+> let cat = {name: "Freyja", color: "orange"}
+undefined
+
+> Object.entries(cat)
+[ [ 'name', 'Freyja' ], [ 'color', 'orange' ] ]
+```
