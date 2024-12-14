@@ -328,3 +328,4 @@ undefined
 > Object.entries(cat)
 [ [ 'name', 'Freyja' ], [ 'color', 'orange' ] ]
 ```
+
