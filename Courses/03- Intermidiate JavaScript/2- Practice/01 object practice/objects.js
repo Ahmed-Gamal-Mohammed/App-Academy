@@ -14,6 +14,7 @@ car['seats'] = 4;
 console.log(car);            // prints {color: 'black', seats: 4}
 
 
+
 //========================================================================================================================================//
 // accessing not assing key get Undefiened
 console.log(car["weight"]);  // undefined
