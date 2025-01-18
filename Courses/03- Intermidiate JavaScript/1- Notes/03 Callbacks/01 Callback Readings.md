@@ -1,0 +1,76 @@
+- we explained that function are first class object, meaning they can be stored in variables just like any other value.
+- In particular, we've been using built-in methods like `Array.forEach` and `Array.map` which accept (anonymous) functions as arguments
+- Now it's time to take a look under the hood and define our _own_ functions that accept other functions as arguments.
+
+# What is a callback?
+Defining a function that accept another function as an argument is as simple as specifying a regular parameter, We'll name our parameter `callback` but you could very well name it whatever you please.
+
+```
+let foobar = function(callback){
+	console.log("foo");
+	callback();
+	console.log("bar");
+};
+
+let sayHello = function(){
+	console.log("hello");
+};
+
+footbar(sayHello); 
+// prints
+// foo
+// hello
+// bar
+```
+
+A callback is always a function. in general, The callback is the function that is being passed into another function. in the example above,`sayHello` is a call back, but `foober` is not a callback. Notice that when call `foobar(sayHello)`, we are not yet calling `sayHello` function, instead we are passing the `sayHello` function itself into `foober`. when execution enters the foobar function, the `callback` arg will refer to `sayHello`. This means that `callback()` will really evaluate to `seyHello()`.
+
+## A more interesting Examples 
+A callback behaves just like any other function, meaning it can accept its own arguments and return values. let's define an `add` function that also accept a callback:
+
+```
+console.log("a call back function can accept its own arguments");
+
+let add = function(num1,num2,cb){
+
+let sum = num1 + num2;
+
+let result = cb(sum);
+
+return result;
+};
+
+let double = function(num){
+
+return num * 2;
+};
+
+let negative = function(num){
+
+return num * -1;
+};
+
+console.log(add(2,3,double)); // 10
+
+console.log(add(4,5,negative)); // -9
+```
+
+In the `add` function above, we pass the sum of `num1` and `num2` into the callback (`cb`) and return the result of the callback. Depending on the callback function we pass in, we can accomplish a wide range of behavior! This will come in handy when reusing code. A callback is just like a helper function, except now we can dynamically pass in _any_ helper function.
+
+To wrap things up, let's pass in some built-in functions and use them as callbacks. `Math.sqrt` is a function that takes in a number and returns its square root:
+
+```
+console.log(Math.sqrt(9)); // 3
+console.log(Math.sqrt(25)); // 5
+console.log(Math.sqrt(64)); // 8
+
+let add = function(num1, num2, cb) {
+  let sum = num1 + num2;
+  let result = cb(sum);
+  return result;
+};
+
+console.log(add(60, 4, Math.sqrt)); // 8
+```
+
+If we pass too few arguments when calling a function, the parameters that do not have arguments will contain the value `undefined`. With that in mind, let's refactor our `add` function to _optionally_ accept a callback:
