@@ -88,7 +88,8 @@ If we pass too few arguments when calling a function, the parameters that do not
 const numbers = [1, 2, 3, 4];
 
 // Double each number in the array
-const doubledNumbers = numbers.map((num) => num * 2);
+const doubledNumbers = numbers.map((num) 
+num * 2);
 
 console.log(doubledNumbers); // Output: [2, 4, 6, 8]
 ```
@@ -113,3 +114,34 @@ console.log(doubledNumbers); // Output: [2, 4, 6, 8]
 	    - The original array.
 	3. The result of the callback function is added to a new array.
 	4. After all elements have been processed, `map` returns the new array.
+
+## Filter
+The `filter` method in JavaScript is a powerful tool for working with arrays. It allows you to create a new array containing only the elements that pass a certain test (defined by a function).
+
+1. What is `filter`?
+	1. `filter` is a built-in array method in JavaScript
+	2. It takes a **callback function** as an argument.
+	3. It returns a **new array** containing only the elements for which the callback function returns `true`.
+2. Syntax 
+	1.  `const newArray = array.filter(callback(currentValue, index, array));`
+3. Example 
+```
+const numbers = [1, 2, 3, 4, 5, 6];
+
+const evenNumbers = numbers.filter((number) => {
+  return number % 2 === 0; // Return true for even numbers
+});
+
+console.log(evenNumbers); // Output: [2, 4, 6]
+```
+
+Creating your own filter 
+- First you need to define a function that take two arguments 
+	- the array to filter 
+	- the callback function 
+-  Create an empty array to store the filtered results.
+-  Loop through each element of the input array.
+-  Call the callback function for each element.
+-  If the callback returns `true`, add the element to the results array.
+-  If the callback returns `true`, add the element to the results array.
+
