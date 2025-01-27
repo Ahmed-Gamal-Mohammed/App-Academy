@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "529de35d979b6c8d",
+        "id": "fb669de67856f33b",
         "type": "tabs",
         "children": [
           {
-            "id": "18d170b34bb05bdc",
+            "id": "15e6329ab8f3eda4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -163,10 +163,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "18d170b34bb05bdc",
+  "active": "15e6329ab8f3eda4",
   "lastOpenFiles": [
-    "02 Objects/01 plain old JavaScript Object.md",
+    "03 Callbacks/Untitled.md",
     "03 Callbacks/01 Callback Readings.md",
+    "02 Objects/01 plain old JavaScript Object.md",
     "03 Callbacks",
     "02 Objects/04 Destructuring.md",
     "02 Objects/03 Rest and Spread.md",

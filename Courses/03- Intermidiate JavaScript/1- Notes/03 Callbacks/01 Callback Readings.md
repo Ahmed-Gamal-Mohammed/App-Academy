@@ -74,3 +74,44 @@ console.log(add(60, 4, Math.sqrt)); // 8
 ```
 
 If we pass too few arguments when calling a function, the parameters that do not have arguments will contain the value `undefined`. With that in mind, let's refactor our `add` function to _optionally_ accept a callback:
+
+
+# Js built-in Method 
+## Map 
+1. what is map?
+	- `map` is a **higher-order function** in JavaScript that is used to transform elements in an array. It takes a callback function as an argument, applies this function to each element in the array, and returns a **new array** with the results of the transformations. **It does not modify the original array.**
+
+2. Syntax 
+	- `const newArray = array.map(callback(currentValue, index, array));`
+3. Example 
+```
+const numbers = [1, 2, 3, 4];
+
+// Double each number in the array
+const doubledNumbers = numbers.map((num) => num * 2);
+
+console.log(doubledNumbers); // Output: [2, 4, 6, 8]
+```
+
+4. Key Points:
+	- The callback function takes three arguments:
+		- 1. The current element being processed.
+		- 2. The index of the current element (optional).
+		- 3. The array itself (optional).
+	-  `map` does not modify the original array. It creates and returns a new array.
+5. **Key Characteristics of `map`:**
+	1. **Immutable:** It does not modify the original array. Instead, it creates and returns a new array.
+	2. **Element-wise Transformation:** The callback function is applied to each element of the array.
+	3. **Returns a New Array:** The result of `map` is always a new array of the same length as the original array.
+	4. **Higher-Order Function:** It takes a function (the callback) as an argument.
+
+ 6. How `map` Works:
+	1. `map` iterates over each element in the array.
+	2. For each element, it calls the callback function with the following arguments:
+	    - The current element. 
+	    - The index of the current element.
+	    - The original array.
+	3. The result of the callback function is added to a new array.
+	4. After all elements have been processed, `map` returns the new array.
+
+7. fefe
