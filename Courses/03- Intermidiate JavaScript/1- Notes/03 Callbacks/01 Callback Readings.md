@@ -113,5 +113,3 @@ console.log(doubledNumbers); // Output: [2, 4, 6, 8]
 	    - The original array.
 	3. The result of the callback function is added to a new array.
 	4. After all elements have been processed, `map` returns the new array.
-
-7. fefe
