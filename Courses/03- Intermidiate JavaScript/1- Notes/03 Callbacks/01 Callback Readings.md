@@ -145,3 +145,13 @@ Creating your own filter
 -  If the callback returns `true`, add the element to the results array.
 -  If the callback returns `true`, add the element to the results array.
 
+
+## Every
+1. **What is `every`?**
+	The `every` method is a built-in JavaScript array method that tests whether **all elements** in an array pass a specific condition (defined by a callback function). It returns a **boolean value**:
+	- `true` if **all elements** pass the test.
+	- `false` if **any element** fails the test.
+2. Syntax
+	1. `array.every(callback(element[, index[, array]])[, thisArg])
+3. returned values 
+	1. - If the callback returns a **falsy value** (`false`, `0`, `""`, `null`, `undefined`, `NaN`), `every` immediately stops iterating and returns `false`.
