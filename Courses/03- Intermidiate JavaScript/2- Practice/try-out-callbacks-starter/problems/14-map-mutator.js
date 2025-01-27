@@ -17,11 +17,12 @@ mapMutator(arr2, function (el, i) {
 });
 console.log(arr2); // [ 0, 9, 20 ]
 *******************************************************************************/
-
-let mapMutator = function() {
-
+let mapMutator = function(arr, callback) {
+    for (let i = 0; i < arr.length; i++) {
+        // Apply the callback to each element and overwrite the original array
+        arr[i] = callback(arr[i], i);
+    }
 };
-
 
 
 

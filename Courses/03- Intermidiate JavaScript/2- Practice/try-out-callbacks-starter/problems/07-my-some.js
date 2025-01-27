@@ -23,8 +23,15 @@ let result3 = mySome(['soup', 'noodles', 'bike', 'ship'], function(ele) {
 console.log(result3);   // true
 *******************************************************************************/
 
-let mySome = function() {
+let mySome = function(array,callback) {
+    for (let index = 0; index < array.length; index++) {
+        const element = array[index];
+        if(callback(element,index)){
+            return true;
+        }
+    }
 
+    return false;
 };
 
 

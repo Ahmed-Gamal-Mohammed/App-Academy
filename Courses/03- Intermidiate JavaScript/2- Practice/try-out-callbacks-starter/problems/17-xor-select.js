@@ -31,8 +31,19 @@ console.log(
 // [ 'art', 'app', 'buttery' ]
 *******************************************************************************/
 
-let xorSelect = function() {
+let xorSelect = function(arr, callback1, callback2) {
+  let result = [];
 
+  for (let i = 0; i < arr.length; i++) {
+      let element = arr[i];
+
+      // XOR logic: true for one callback but not both
+      if (callback1(element) !== callback2(element)) {
+          result.push(element);
+      }
+  }
+
+  return result;
 };
 
 

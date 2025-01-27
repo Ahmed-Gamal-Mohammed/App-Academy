@@ -36,9 +36,23 @@ let result6 = one(['apple', 'dog', 'food', 'cat'], function(el, idx) {
 });
 console.log(result6);   // true
 *******************************************************************************/
+let one = function(array, callback) {
+    let count = 0; // Initialize a counter for elements that return true
 
-let one = function() {
+    // Iterate through the array
+    for (let i = 0; i < array.length; i++) {
+        // Call the callback with the current element and its index
+        if (callback(array[i], i)) {
+            count++;
+        }
+        // If more than one element satisfies the callback, return false early
+        if (count > 1) {
+            return false;
+        }
+    }
 
+    // Return true only if exactly one element satisfies the callback
+    return count === 1;
 };
 
 

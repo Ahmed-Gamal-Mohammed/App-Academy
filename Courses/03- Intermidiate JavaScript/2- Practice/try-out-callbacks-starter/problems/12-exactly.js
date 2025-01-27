@@ -27,8 +27,18 @@ console.log(result4); // true
 
 *******************************************************************************/
 
-let exactly = function() {
+let exactly = function(array,number,callback) {
+    let counter =0;
+    for (let index = 0; index < array.length; index++) {
+        if (callback(array[index])) {
+            counter+=1;
+        }
 
+        if (counter > number) {
+            return false;
+        }
+    }
+    return counter === number;
 };
 
 
