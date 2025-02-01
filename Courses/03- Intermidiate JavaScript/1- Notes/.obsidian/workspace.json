@@ -165,10 +165,11 @@
   },
   "active": "15e6329ab8f3eda4",
   "lastOpenFiles": [
+    "README.md",
     "04 Scope and Closures/03 Arrow Function.md",
-    "04 Scope and Closures/04 Closures.md",
     "04 Scope and Closures/02 Variables.md",
     "04 Scope and Closures/01 Scope.md",
+    "04 Scope and Closures/04 Closures.md",
     "03 Callbacks/01 Callback Readings.md",
     "04 Scope and Closures",
     "03 Callbacks/Untitled.md",
@@ -186,7 +187,6 @@
     "02 Objects/assignment-num1.png",
     "02 Objects",
     "01 pair Programming/02 Objects",
-    "README.md",
     "01 pair Programming"
   ]
 }
