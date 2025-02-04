@@ -11,14 +11,10 @@
             "id": "15e6329ab8f3eda4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "04 Scope and Closures/05 CallStack.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "05 CallStack"
+              "title": "New tab"
             }
           }
         ]
@@ -163,10 +159,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "15e6329ab8f3eda4",
+  "active": "b022432e303aad12",
   "lastOpenFiles": [
-    "04 Scope and Closures/04 Closures.md",
+    "05 Recursion/01 Recursion.md",
     "04 Scope and Closures/05 CallStack.md",
+    "05 Recursion",
+    "04 Scope and Closures/04 Closures.md",
     "README.md",
     "04 Scope and Closures/03 Arrow Function.md",
     "04 Scope and Closures/02 Variables.md",
