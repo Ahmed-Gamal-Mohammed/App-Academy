@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "fb669de67856f33b",
+        "id": "e9c5269fde434dbe",
         "type": "tabs",
         "children": [
           {
-            "id": "15e6329ab8f3eda4",
+            "id": "e110d09b9db99329",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06 Recalls/Note 1.md",
+                "file": "07 Async JavaScript/Note 4.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Note 1"
+              "title": "Note 4"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ffa52c52ec4f9460",
@@ -163,10 +164,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "15e6329ab8f3eda4",
+  "active": "e110d09b9db99329",
   "lastOpenFiles": [
-    "05 Hoisting/03 Unassigned Variables in JavaScript.md",
+    "07 Async JavaScript/Note 3.md",
+    "07 Async JavaScript/Note 4.md",
+    "07 Async JavaScript/Note 2.md",
+    "07 Async JavaScript/Note 1.md",
     "06 Recalls/Note 1.md",
+    "07 Async JavaScript",
+    "06 As",
+    "05 Hoisting/03 Unassigned Variables in JavaScript.md",
     "06 Recalls",
     "05 Hoisting/02 Function Hoisting.md",
     "05 Hoisting/01 IIFEs.md",
