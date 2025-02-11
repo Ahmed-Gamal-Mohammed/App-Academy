@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "07 Async JavaScript/Note 4.md",
+                "file": "07 Async JavaScript/Note 5.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Note 4"
+              "title": "Note 5"
             }
           }
         ]
@@ -166,8 +166,9 @@
   },
   "active": "e110d09b9db99329",
   "lastOpenFiles": [
-    "07 Async JavaScript/Note 3.md",
     "07 Async JavaScript/Note 4.md",
+    "07 Async JavaScript/Note 5.md",
+    "07 Async JavaScript/Note 3.md",
     "07 Async JavaScript/Note 2.md",
     "07 Async JavaScript/Note 1.md",
     "06 Recalls/Note 1.md",
