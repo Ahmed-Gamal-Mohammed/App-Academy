@@ -1,0 +1,23 @@
+{
+  "name": "01_npm_practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "colors": "^1.4.0"
+  },
+  "devDependencies": {
+    "mocha": "^11.1.0"
+  },
+  "scripts": {
+      "start": "node index.js",
+      "test": "mocha --watch"
+    }
+}
