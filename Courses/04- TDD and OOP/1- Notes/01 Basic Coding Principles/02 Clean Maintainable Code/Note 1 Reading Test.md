@@ -1,0 +1,1 @@
+No matter what kind of test you are encountering the most important thing about a test is that it is **readable** and **understandable**. Good tests use descriptive strings to enumerate what they are testing as well as how they are testing it.
