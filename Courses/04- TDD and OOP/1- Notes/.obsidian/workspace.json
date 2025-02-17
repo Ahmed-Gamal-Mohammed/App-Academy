@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Basic Coding Principles/02 Clean Maintainable Code/Note 3 Single Responsibility Principle.md",
+                "file": "01 Basic Coding Principles/02 Clean Maintainable Code/Note 4 DRY (Don't Repeat YourSelf).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Note 3 Single Responsibility Principle"
+              "title": "Note 4 DRY (Don't Repeat YourSelf)"
             }
           }
         ]
@@ -173,8 +173,9 @@
   },
   "active": "82976709a0b490bd",
   "lastOpenFiles": [
-    "01 Basic Coding Principles/02 Clean Maintainable Code/Note 2 Refactoring Code.md",
     "01 Basic Coding Principles/02 Clean Maintainable Code/Note 3 Single Responsibility Principle.md",
+    "01 Basic Coding Principles/02 Clean Maintainable Code/Note 4 DRY (Don't Repeat YourSelf).md",
+    "01 Basic Coding Principles/02 Clean Maintainable Code/Note 2 Refactoring Code.md",
     "01 Basic Coding Principles/02 Clean Maintainable Code/Note 1 Reading Test.md",
     "01 Basic Coding Principles/01 Modules and Packages/Note 5 CommanJs Modules.md",
     "01 Basic Coding Principles/02 Clean Maintainable Code",
