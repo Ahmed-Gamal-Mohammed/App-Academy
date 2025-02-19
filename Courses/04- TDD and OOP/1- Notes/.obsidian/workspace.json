@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 Object-Oriented Programming/01_ OOP && Classes/Note 05 Inheritance.md",
+                "file": "02 Object-Oriented Programming/01_ OOP/Note 05 Inheritance.md",
                 "mode": "source",
                 "source": false
               },
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "78842ae7b82f9c50",
@@ -171,17 +170,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "82976709a0b490bd",
+  "active": "5323009e58075b27",
   "lastOpenFiles": [
     "02 Object-Oriented Programming/01_ OOP && Classes/02",
-    "02 Object-Oriented Programming/01_ OOP && Classes/Note 3 Classes.md",
-    "02 Object-Oriented Programming/01_ OOP && Classes/Note 05 Inheritance.md",
-    "02 Object-Oriented Programming/01_ OOP && Classes/Note 4 Static Methods and Variables.md",
-    "02 Object-Oriented Programming/01_ OOP && Classes/Note 2 Encapsulation.md",
-    "02 Object-Oriented Programming/01_ OOP && Classes/Note 1 What is OOP ? and Why OOP?.md",
+    "02 Object-Oriented Programming/01_ OOP/Note 3 Classes.md",
+    "02 Object-Oriented Programming/01_ OOP/Note 05 Inheritance.md",
+    "02 Object-Oriented Programming/01_ OOP/Note 4 Static Methods and Variables.md",
+    "02 Object-Oriented Programming/01_ OOP/Note 2 Encapsulation.md",
+    "02 Object-Oriented Programming/01_ OOP/Note 1 What is OOP ? and Why OOP?.md",
     "01 Basic Coding Principles/02 Clean Maintainable Code/Note 4 DRY (Don't Repeat YourSelf).md",
     "02 Object-Oriented Programming/01_ OOP && Classes/01_OOP_Basics",
-    "02 Object-Oriented Programming/01_ OOP && Classes",
+    "02 Object-Oriented Programming/01_ OOP",
     "02 Object-Oriented Programming",
     "01 Basic Coding Principles/02 Clean Maintainable Code/Note 3 Single Responsibility Principle.md",
     "01 Basic Coding Principles/02 Clean Maintainable Code/Note 2 Refactoring Code.md",
