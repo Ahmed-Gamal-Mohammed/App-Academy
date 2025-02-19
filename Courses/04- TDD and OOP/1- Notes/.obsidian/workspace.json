@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 Object-Oriented Programming/01_ OOP && Classes/01_OOP_Basics/Note 3 Classes.md",
+                "file": "02 Object-Oriented Programming/01_ OOP && Classes/Note 05 Inheritance.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Note 3 Classes"
+              "title": "Note 05 Inheritance"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "78842ae7b82f9c50",
@@ -172,10 +173,12 @@
   },
   "active": "82976709a0b490bd",
   "lastOpenFiles": [
-    "02 Object-Oriented Programming/01_ OOP && Classes/01_OOP_Basics/Note 4 Static Methods and Variables.md",
-    "02 Object-Oriented Programming/01_ OOP && Classes/01_OOP_Basics/Note 3 Classes.md",
-    "02 Object-Oriented Programming/01_ OOP && Classes/01_OOP_Basics/Note 2 Encapsulation.md",
-    "02 Object-Oriented Programming/01_ OOP && Classes/01_OOP_Basics/Note 1 What is OOP ? and Why OOP?.md",
+    "02 Object-Oriented Programming/01_ OOP && Classes/02",
+    "02 Object-Oriented Programming/01_ OOP && Classes/Note 3 Classes.md",
+    "02 Object-Oriented Programming/01_ OOP && Classes/Note 05 Inheritance.md",
+    "02 Object-Oriented Programming/01_ OOP && Classes/Note 4 Static Methods and Variables.md",
+    "02 Object-Oriented Programming/01_ OOP && Classes/Note 2 Encapsulation.md",
+    "02 Object-Oriented Programming/01_ OOP && Classes/Note 1 What is OOP ? and Why OOP?.md",
     "01 Basic Coding Principles/02 Clean Maintainable Code/Note 4 DRY (Don't Repeat YourSelf).md",
     "02 Object-Oriented Programming/01_ OOP && Classes/01_OOP_Basics",
     "02 Object-Oriented Programming/01_ OOP && Classes",
