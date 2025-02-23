@@ -170,8 +170,10 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "ba3cfaaf1346e796",
+  "active": "5323009e58075b27",
   "lastOpenFiles": [
+    "04 TDD Basic/01 Error Handling",
+    "04 TDD Basic",
     "03 Context in JavaScript/02_Context in Arrow Functions/Note 2 Context in Arrow Functions.md",
     "03 Context in JavaScript/01_Context in Regular Functions/Note 3 call and apply.md",
     "03 Context in JavaScript/02_Context in Arrow Functions/Note 1 Arrow Functions Review.md",
@@ -202,7 +204,6 @@
     "01 Basic Coding Principles/01 Modules and Packages/Note 3 NPM part 1.md",
     "01 Basic Coding Principles/01 Modules and Packages/Note 2 Asking Great Questions.md",
     "01 Basic Coding Principles/01 Modules and Packages/Note 1 Intro to OOP.md",
-    "01 Basic Coding Principles/01 Modules and Packages",
-    "01 Basic Coding Principles"
+    "01 Basic Coding Principles/01 Modules and Packages"
   ]
 }
