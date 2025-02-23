@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 Context in JavaScript/02_Context in Arrow Functions/Note 2 Context in Arrow Functions.md",
+                "file": "03 Context in JavaScript/01_Context in Regular Functions/Note 2 Bind.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Note 2 Context in Arrow Functions"
+              "title": "Note 2 Bind"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "78842ae7b82f9c50",
@@ -173,8 +172,8 @@
   },
   "active": "ba3cfaaf1346e796",
   "lastOpenFiles": [
-    "03 Context in JavaScript/01_Context in Regular Functions/Note 3 call and apply.md",
     "03 Context in JavaScript/02_Context in Arrow Functions/Note 2 Context in Arrow Functions.md",
+    "03 Context in JavaScript/01_Context in Regular Functions/Note 3 call and apply.md",
     "03 Context in JavaScript/02_Context in Arrow Functions/Note 1 Arrow Functions Review.md",
     "03 Context in JavaScript/02_Context in Arrow Functions",
     "03 Context in JavaScript/Untitled.md",
