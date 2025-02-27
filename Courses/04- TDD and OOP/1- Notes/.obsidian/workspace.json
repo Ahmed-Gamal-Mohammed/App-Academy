@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 Context in JavaScript/01_Context in Regular Functions/Note 2 Bind.md",
+                "file": "04 TDD Basic/02 Testing/02 Unit Testing/Note 2 Determining Common Test Cases.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Note 2 Bind"
+              "title": "Note 2 Determining Common Test Cases"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "78842ae7b82f9c50",
@@ -94,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 Basic Coding Principles/01 Modules and Packages/Note 3 NPM part 1.md",
+                "file": "04 TDD Basic/02 Testing/02 Unit Testing/Note 2 Determining Common Test Cases.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Note 3 NPM part 1"
+              "title": "Backlinks for Note 2 Determining Common Test Cases"
             }
           },
           {
@@ -170,8 +171,21 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "5323009e58075b27",
+  "active": "ba3cfaaf1346e796",
   "lastOpenFiles": [
+    "04 TDD Basic/02 Testing/02 Unit Testing/Note 1 Mocha and chai.md",
+    "04 TDD Basic/02 Testing/02 Unit Testing/Note 2 Determining Common Test Cases.md",
+    "04 TDD Basic/02 Testing/01 Testing Basics/Note 0 How to know what to test.md",
+    "04 TDD Basic/02 Testing/01 Testing Basics/Note 2 What is TDD?.md",
+    "04 TDD Basic/02 Testing/01 Testing Basics/Pasted image 20250224213551.png",
+    "04 TDD Basic/02 Testing/01 Testing Basics/Note 1 Testing Pyramid.md",
+    "04 TDD Basic/02 Testing/01 Testing Basics/image02.png",
+    "04 TDD Basic/01 Error Handling/Note 2 Error Handlig.md",
+    "04 TDD Basic/02 Testing/02 Unit Testing",
+    "04 TDD Basic/02 Testing/01 Testing Basics",
+    "04 TDD Basic/02 Testing",
+    "04 TDD Basic/01 Error Handling/Note 1 JS Error Types.md",
+    "03 Context in JavaScript/01_Context in Regular Functions/Note 2 Bind.md",
     "04 TDD Basic/01 Error Handling",
     "04 TDD Basic",
     "03 Context in JavaScript/02_Context in Arrow Functions/Note 2 Context in Arrow Functions.md",
@@ -180,7 +194,6 @@
     "03 Context in JavaScript/02_Context in Arrow Functions",
     "03 Context in JavaScript/Untitled.md",
     "03 Context in JavaScript/01_Context in Regular Functions",
-    "03 Context in JavaScript/01_Context in Regular Functions/Note 2 Bind.md",
     "03 Context in JavaScript/01_Context in Regular Functions/Note 1 Regular Function.md",
     "02 Object-Oriented Programming/01_ OOP/Note 6 Polymorphism.md",
     "03 Context in JavaScript",
@@ -192,18 +205,11 @@
     "02 Object-Oriented Programming/01_ OOP/Note 1 What is OOP ? and Why OOP?.md",
     "01 Basic Coding Principles/02 Clean Maintainable Code/Note 4 DRY (Don't Repeat YourSelf).md",
     "02 Object-Oriented Programming/01_ OOP && Classes/01_OOP_Basics",
-    "02 Object-Oriented Programming/01_ OOP",
-    "02 Object-Oriented Programming",
     "01 Basic Coding Principles/02 Clean Maintainable Code/Note 3 Single Responsibility Principle.md",
     "01 Basic Coding Principles/02 Clean Maintainable Code/Note 2 Refactoring Code.md",
     "01 Basic Coding Principles/02 Clean Maintainable Code/Note 1 Reading Test.md",
     "01 Basic Coding Principles/01 Modules and Packages/Note 5 CommanJs Modules.md",
-    "01 Basic Coding Principles/02 Clean Maintainable Code",
     "01 Basic Coding Principles/01 Modules and Packages/Note 6 Using Modules in Node.js.md",
-    "01 Basic Coding Principles/01 Modules and Packages/Note 4 NPM part 2.md",
-    "01 Basic Coding Principles/01 Modules and Packages/Note 3 NPM part 1.md",
-    "01 Basic Coding Principles/01 Modules and Packages/Note 2 Asking Great Questions.md",
-    "01 Basic Coding Principles/01 Modules and Packages/Note 1 Intro to OOP.md",
-    "01 Basic Coding Principles/01 Modules and Packages"
+    "01 Basic Coding Principles/01 Modules and Packages/Note 4 NPM part 2.md"
   ]
 }
