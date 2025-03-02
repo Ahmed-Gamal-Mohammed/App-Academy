@@ -1,0 +1,39 @@
+arr.push()
+Time complexity: O(1) Space complexity: O(n) Justification: Fill this in
+
+arr.pop()
+Time complexity: O(1) Space complexity: O(1) Justification: Fill this in
+
+arr.shift()
+Time complexity: O(n) Space complexity: O(1) Justification: Fill this in
+
+
+arr.unshift()
+Time complexity: O(n) Space complexity: O(n) Justification: Fill this in
+
+
+arr.splice()
+Time complexity: O(n) Space complexity: O(n) Justification: Fill this in
+
+arr.slice()
+Time complexity: O(k) (where k is the number of elements sliced) Space complexity: O(k) Justification: Fill this in
+
+
+arr.indexOf()
+Time complexity: O(n) Space complexity: O(1) Justification: Fill this in
+
+
+arr.map()
+Time complexity: O(n) Space complexity: O(n) Justification: Fill this in
+
+arr.filter()
+Time complexity: O(n) Space complexity: O(n) Justification: Fill this in
+
+arr.reduce()
+Time complexity: O(n) Space complexity: O(1) Justification: Fill this in
+
+arr.reverse()
+Time complexity: O(n) Space complexity: O(1) Justification: Fill this in
+
+[...arr]
+Time complexity: O(n) Space complexity: O(n) Justification: Fill this in
