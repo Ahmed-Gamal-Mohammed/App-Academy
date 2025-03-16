@@ -1,0 +1,136 @@
+<!-- Tell the browser the version of HTML to use -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My HTML Cheat Sheet</title>
+    </head>
+    <body>
+        <!-- Each site must have just one Header -->
+        <h1>My HTML Cheat Sheet</h1>
+        <h2>Headings</h2>
+
+        <!-- Paragraph -->
+        <p>
+            Headings from `h1` to `h6` identify blocks and sections. Every page must have one `h1`.
+        </p>
+
+        <!-- Creating some lists -->
+        <!-- There are two important types of lists in HTML: Unorderd lists and ordered list -->
+        <!-- The unordered list -->
+        <h2>Lists</h2>
+        <h3>Unorderd Lists</h3>
+        <p>
+            Unordered Lists are marked with bullet points and go in `ul`tags. Each list item goes in an `li` tag.
+        </p>
+        <h4>Types of lists</h4>
+        <ul>
+            <li>Unorderd Lists (`ul`)</li>
+            <li>Ordered Lists (`ol`)</li>
+        </ul>
+
+        <h3>Ordered Lists</h3>
+        <p>
+            Ordered lists are numbered and go in `ol` tags. Each list item goes in an `li` tag.
+        </p>
+        <h4>Polya's Problem Solving Framework</h4>
+        <ol>
+            <li>Understand the problem</li>
+            <li>Come up with a plan</li>
+            <li>Carry out the plan</li>
+            <li>Go back and improve your solution</li>
+        </ol>
+
+        <h2>Anchors (i.e Links)</h2>
+        <p>
+            Anchors tags create links to other pages. The URL goes in the `href` attribute.
+            <a href="https://duckduckgo.com">Go to DuckDuckGo to search for more information</a>
+        </p>
+        <p>
+            Setting `target = "_blank"` will open the link in a new window. See
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a" target="_blank">MDN</a>
+            For more details.
+        </p>
+
+        <h2>Images</h2>
+        <p>
+        <!-- The alt text will also display if the image cannot be displayed for any reason, including a dead link or a poor internet connection.
+
+        It is also important for accessibility reasons. Visually impaired internet users may browse the web with assistance of a screen reader.
+        These will read the alt text aloud to the user, allowing them to understand the image without seeing it. -->
+
+            You can use the img tag to add images to your page.
+            <img src="http://wanderlord.com/wp-content/uploads/2015/11/Lemur-5-150x150.jpg" alt="A cute lemur">
+        </p>
+
+
+
+
+        <!-- The following is artical  -->
+        <article class="film_review">
+            <h2>Jurassic Park</h2>
+            <section class="main_review">
+              <h3>Review</h3>
+              <p>Dinos were great!</p>
+            </section>
+            <section class="user_reviews">
+              <h3>User reviews</h3>
+              <article class="user_review">
+                <h4>Too scary!</h4>
+                <p>Way too scary for me.</p>
+                <footer>
+                  <p>
+                    Posted on
+                    <time datetime="2015-05-16 19:00">May 16</time>
+                    by Lisa.
+                  </p>
+                </footer>
+              </article>
+              <article class="user_review">
+                <h4>Love the dinos!</h4>
+                <p>I agree, dinos are my favorite.</p>
+                <footer>
+                  <p>
+                    Posted on
+                    <time datetime="2015-05-17 19:00">May 17</time>
+                    by Tom.
+                  </p>
+                </footer>
+              </article>
+            </section>
+            <footer>
+              <p>
+                Posted on
+                <time datetime="2015-05-15 19:00">May 15</time>
+                by Staff.
+              </p>
+            </footer>
+          </article>
+
+        <footer>
+            <small>
+              Copyright © 2023 Football History Archives. All Rights Reserved.
+            </small>
+        </footer>
+
+        <header>
+            <h1>Main Page Title</h1>
+            <img src="mdn-logo-sm.png" alt="MDN logo" />
+        </header>
+
+        <!-- The <nav> HTML element represents a section of a page whose purpose is to provide navigation links,
+        either within the current document or to other documents.
+        Common examples of navigation sections are menus, tables of contents, and indexes. -->
+        <nav class="menu">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+
+
+    </body>
+</html>

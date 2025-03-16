@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>This page for Forms</h1>
+
+    <!-- The input field for the name is a single-line text field.
+    The input field for the email is an input of type email: a single-line text field that accepts only email addresses.
+    The input field for the message is a <textarea>; a multiline text field. -->
+
+    <form action="/my-handling-form-page" method="post">
+        <p>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="user_name">
+        </p>
+        <p>
+            <label for="mail">Email:</label>
+            <input type="email" name="mail" id="user_email">
+        </p>
+        <p>
+            <label for="msg">message:</label>
+            <textarea name="user_message" id="msg"></textarea>
+        </p>
+
+        <p class="button">
+            <button type="submit">Send your message</button>
+        </p>
+
+    </form>
+
+
+
+
+</body>
+</html>

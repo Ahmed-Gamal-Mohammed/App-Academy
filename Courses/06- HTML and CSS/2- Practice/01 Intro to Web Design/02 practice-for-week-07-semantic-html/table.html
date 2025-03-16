@@ -1,0 +1,120 @@
+<!-- <h2>Table</h2> -->
+<!-- Tables in HTML are great for displaying tabular data, such as an address book or a list of product descriptions and prices.
+Although tables are good for keeping things organized, tables should only be used for displaying data,
+not for defining the layout of a page. -->
+
+<!-- If your table has a header, that is, rows that should be considered as the column headers, you add a <thead>.
+Then you add a <tbody> which should contain the data of your table.
+If your table has a footer, that is, rows that summarize the tabular data, then you add a <tfoot>, too. Finally -->
+<!-- <table>
+    <thead>
+    </thead>
+    <tbody>
+    </tbody>
+    <tfoot>
+    </tfoot>
+</table> -->
+<!-- Now, add rows to the table, row by row, using the table row tag for each row. -->
+<!-- <table>
+    <thead>
+      <tr>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+      </tr>
+      <tr>
+      </tr>
+      <tr>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+      </tr>
+    </tfoot>
+</table> -->
+
+<!-- In the rows, put <th> elements and signify that it is a column or row header using the "scope" attribute. Put <td> to hold the data. -->
+<!-- <table>
+    <thead>
+        <tr>
+            <th scope="col">Insect</th>
+            <th scope="col">Faimly</th>
+            <th scope="col">Fact</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">Ladybug</th>
+            <td>Coccinellidae</td>
+            <td>Can eat more than 5,000 insects!</td>
+        </tr>
+        <tr>
+            <th scope="row">Fruit flies</th>
+            <td>Heterobathmiidae</td>
+            <td>Have 12 eyes</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td></td>
+            <td>I had no ideas!</td>
+            <td>Those are neat!</td>
+        </tr>
+    </tfoot>
+</table> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <!-- The table element represent tabular data---that is information presented in a two dimensional table comprised of row and columns -->
+     <table>
+        <caption>
+            Front-end web developer course 2021
+        </caption>
+
+        <thead>
+            <tr>
+                <th scope="col">Person</th>
+                <th scope="col">Most interset in</th>
+                <th scope="col">Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Chris</th>
+                <td>HTML tables</td>
+                <td>22</td>
+            </tr>
+            <tr>
+                <th scope="row">Dennis</th>
+                <td>Web accessibility</td>
+                <td>45</td>
+            </tr>
+            <tr>
+                <th scope="row">Sarah</th>
+                <td>JavaScript framework</td>
+                <td>29</td>
+            </tr>
+            <tr>
+                <th scope="row">Karen</th>
+                <td>Web performance</td>
+                <td>36</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row" colspan="2">Average age</th>
+                <td>32</td>
+            </tr>
+        </tfoot>
+     </table>
+
+</body>
+</html>
