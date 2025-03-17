@@ -27,16 +27,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tips and Tricks.md",
+                "file": "06 Tips and Tricks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tips and Tricks"
+              "title": "06 Tips and Tricks"
+            }
+          },
+          {
+            "id": "70aa56ecf2ba9f5d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "07 Logarithms.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "07 Logarithms"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -183,10 +197,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "22632dcbd841edb4",
+  "active": "70aa56ecf2ba9f5d",
   "lastOpenFiles": [
+    "06 Tips and Tricks.md",
+    "07 Logarithms.md",
+    "Untitled",
     "05 Sorting/01 Basic Sorting/Note 5 Selection Sort.md",
-    "Tips and Tricks.md",
     "05 Sorting/01 Basic Sorting/Note 4 Insertion Sort.md",
     "05 Sorting/01 Basic Sorting/Untitled",
     "05 Sorting/01 Basic Sorting/Note 3 Bubble Sort.md",
@@ -209,7 +225,6 @@
     "01 Code Performance/02 Logic and Memory/Note 1 Logic and Truth.md",
     "01 Code Performance/01 Time and Space Complexity/Note 2 Timing Benchmarks.md",
     "01 Code Performance/02 Logic and Memory",
-    "01 Code Performance/01 Time and Space Complexity/Note 1 Introduction to Computer Science.md",
-    "01 Code Performance/01 Time and Space Complexity"
+    "01 Code Performance/01 Time and Space Complexity/Note 1 Introduction to Computer Science.md"
   ]
 }
