@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Intro to Web Design/01 HTML and Design/Note 2 Basics of HTML.md",
+                "file": "01 Intro to Web Design/01 HTML and Design/Note 5 Wire-frames.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Note 2 Basics of HTML"
+              "title": "Note 5 Wire-frames"
             }
           }
         ]
@@ -170,10 +170,14 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "80e31bce5b4346b0",
+  "active": "eecf330d3f9541aa",
   "lastOpenFiles": [
-    "01 Intro to Web Design/01 HTML and Design/Note 1 Design Principles.md",
+    "02 CSS Fundamental",
+    "01 Intro to Web Design/01 HTML and Design/Note 4 Forms.md",
+    "01 Intro to Web Design/01 HTML and Design/Note 5 Wire-frames.md",
+    "01 Intro to Web Design/01 HTML and Design/Note 3 Other Content Section tags.md",
     "01 Intro to Web Design/01 HTML and Design/Note 2 Basics of HTML.md",
+    "01 Intro to Web Design/01 HTML and Design/Note 1 Design Principles.md",
     "01 Intro to Web Design/01 HTML and Design",
     "01 Intro to Web Design"
   ]

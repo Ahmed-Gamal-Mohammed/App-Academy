@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 3</title>
+</head>
+<body>
+    <h1>This is for Forms 3</h1>
+
+    <p>Required fields are followed by <span aria-label="required">*</span>.</p>
+
+    <!-- So this: -->
+    <!-- <div>
+      <label for="username">Name:</label>
+      <input id="username" type="text" name="username" required>
+      <label for="username"><span aria-label="required">*</label>
+    </div> -->
+
+    <!-- would be better done like this: -->
+    <!-- <div>
+      <label for="username">
+        <span>Name:</span>
+        <input id="username" type="text" name="username" required>
+        <span aria-label="required">*</span>
+      </label>
+    </div> -->
+
+    <!-- But this is probably best: -->
+    <div>
+      <label for="username">Name: <span aria-label="required">*</span></label>
+      <input id="username" type="text" name="username" required />
+    </div>
+
+
+</body>
+</html>
