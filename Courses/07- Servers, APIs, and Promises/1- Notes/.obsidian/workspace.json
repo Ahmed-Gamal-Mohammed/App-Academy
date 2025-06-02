@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 HTTP Servers I/01 Server Basics.md",
+                "file": "01 HTTP Servers I/02 HTTP Request Components.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01 Server Basics"
+              "title": "02 HTTP Request Components"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 222.50260543823242,
+    "collapsed": true
   },
   "right": {
     "id": "18d8f16a19ae7d39",
@@ -172,8 +173,13 @@
   },
   "active": "7a96c7de043a684a",
   "lastOpenFiles": [
-    "Pasted image 20250416180741.png",
+    "01 HTTP Servers I/03 - HTTP Response Components.md",
+    "01 HTTP Servers I/04- RESTful Routes.md",
+    "Untitled.md",
+    "01 HTTP Servers I/02 HTTP Request Components.md",
     "01 HTTP Servers I/01 Server Basics.md",
+    "01 HTTP Servers I/Pasted image 20250528092410.png",
+    "01 HTTP Servers I/Pasted image 20250416180741.png",
     "01 HTTP Servers I"
   ]
 }

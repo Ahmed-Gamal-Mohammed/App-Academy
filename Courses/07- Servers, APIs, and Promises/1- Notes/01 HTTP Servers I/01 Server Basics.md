@@ -32,7 +32,7 @@ Sometimes, there are multiple servers in a full-stack application to spread out 
 - Protocols define the process of exchanging data, but don't define exactly what that data must be.
 - **Analogy:**  
 	Think of a **multi-course meal**:
-	1. **Appetizer** → **Entrée** → **Dessert** (order is fixed).
+	1. **Appetizer** → **Entree** → **Dessert** (order is fixed).
 	2. The actual dishes (data) can vary (soup, steak, ice cream, etc.), but the **sequence** must be followed.  
     Similarly, a protocol ensures that data is exchanged in an expected way, even if the content differs.
 - **What is a Transfer Protocol?**
@@ -91,5 +91,56 @@ HTTP (HyperText Transfer Protocol) relies on **TCP (Transmission Control Protoco
 ---
 HTTP doesn't work well if messages aren't received in the correct order, so it's critical that the connection your hypertext is crossing is reliable!
 ### Stateless transfer
-HTTP is considered a _stateless_ protocol, meaning it doesn't store any information. Each request you send across an HTTP connection should contain all its own context. This is unlike a _stateful_ protocol, that might include specifications for storing data between requests.
+- HTTP (Hypertext Transfer Protocol) is designed to be **stateless**, meaning that each request from a client (like a web browser) to a server is treated as completely independent. The server does not retain any memory of previous requests.
+	- **Example:** If you send two requests in a row (e.g., loading a webpage and then clicking a button), the server does not automatically know they came from the same user.
+	-  **Why?** This simplifies how servers work because they don’t need to track every user’s activity over time.
+	
+- HTTP is considered a _stateless_ protocol, meaning it doesn't store any information. Each request you send across an HTTP connection should contain all its own context. This is unlike a _stateful_ protocol, that might include specifications for storing data between requests.
+#### **Problem with Statelessness**
+- Since HTTP doesn’t remember past interactions, it creates challenges for features that require continuity, such as:
+	- **User logins** (How does the server know you’re still logged in?)
+	- **Shopping carts** (How does the website remember what you added?)
+	- **Personalized content** (How does it keep track of your preferences?)
+ 
+### Intermediaries
+The Web is a big place, and it's unlikely that your request will go directly to its destination! Instead, it will pass through a series of _intermediaries_: other servers or devices that pass your request along. These intermediaries come in three types:
+
+- **_proxies_**, which may modify your request so it appears to come from a different source,
+	-  **What they do:**
+	    - Act as a middleman between your device and the internet.
+	    - Can **modify requests/responses** (e.g., adding headers, caching content, filtering data).
+	    - Can **hide your identity** (e.g., making a request appear to come from the proxy’s IP address).
+	    
+	- **Why they’re used:**
+	    - **Caching:** Store copies of web pages to speed up future requests.
+	    - **Security:** Block malicious sites or monitor traffic (corporate proxies).
+	    - **Privacy/Anonymity:** Mask your IP address (VPNs often use proxies).
+
+	- **Example:**
+	    - You request `example.com` → Proxy forwards the request → Server sees the proxy’s IP, not yours.
+
+- **_gateways_**, which pretend to be the resource server you requested,
+	- **What they do:**
+	    - Pretend to be the **destination server** but actually act as a translator or gateway to another system.
+	    - Often used to connect different protocols (e.g., HTTP ↔ FTP) or handle requests for legacy systems.
+	    
+	- **Why they’re used:**
+	    - **Protocol conversion:** Lets HTTP clients interact with non-HTTP services (e.g., email servers).
+	    - **Load balancing:** Distributes requests across multiple backend servers.
+        
+	- **Example:**
+	    - You request `http://api.example.com` → Gateway forwards it to an internal **gRPC** or **SOAP** service → Returns an HTTP response.
+
+- and **_tunnels_**, which simply pass your request along.
+	- **What they do:**
+		- Simply **pass requests along** without modifying them.
+	    - Often used for secure communication (e.g., HTTPS over a tunnel).
+        
+	- **Why they’re used:**
+	    - **Secure bypass:** Lets HTTP traffic pass through firewalls or restricted networks.
+	    - **VPNs:** Encrypt traffic between you and a remote server.
+        
+	- **Example:**
+	    - You connect to a corporate VPN → All your HTTP requests are **tunneled** through an encrypted connection → Exit at the company’s network.
+![[Pasted image 20250528092410.png]]
 
