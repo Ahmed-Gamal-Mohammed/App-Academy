@@ -29,7 +29,7 @@ Sometimes, there are multiple servers in a full-stack application to spread out 
 		- The **order** in which data is sent and received.
 		- The **format** of the data.
 		- How errors are handled.
-- Protocols define the process of exchanging data, but don't define exactly what that data must be.
+- Protocols define the process of exchanging data, but don't define exactly what that data must be.￼
 - **Analogy:**  
 	Think of a **multi-course meal**:
 	1. **Appetizer** → **Entree** → **Dessert** (order is fixed).
