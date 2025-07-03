@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 HTTP Server ||/06 - HTML Templating.md",
+                "file": "03 Asynchronous JavaScript/02 Async Function.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "06 - HTML Templating"
+              "title": "02 Async Function"
             }
           }
         ]
@@ -173,8 +173,11 @@
   },
   "active": "6f5c7cdb57bd4dec",
   "lastOpenFiles": [
-    "02 HTTP Server ||/05 Serving Static Assets.md",
+    "03 Asynchronous JavaScript/01 Promises.md",
+    "03 Asynchronous JavaScript/02 Async Function.md",
     "02 HTTP Server ||/06 - HTML Templating.md",
+    "03 Asynchronous JavaScript",
+    "02 HTTP Server ||/05 Serving Static Assets.md",
     "02 HTTP Server ||/04 Create Route Handlers in http.md",
     "02 HTTP Server ||/03 Parse the Request Body in http.md",
     "02 HTTP Server ||/02 Formulate and Send a Response in http.md",
