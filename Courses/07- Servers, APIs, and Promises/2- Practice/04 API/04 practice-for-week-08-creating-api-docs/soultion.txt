@@ -1,0 +1,24 @@
+1. GET "./posts"
+
+2. POST "./posts"
+
+3. PUT "./posts/:postID"
+
+4. POST "./users"
+
+5. GET "./posts/:postID/comments"
+
+6. POST "./posts/:postID/comments"
+
+7. PATCH "./posts/:postID/comments/:commentID"
+
+8. DELETE "./posts/:postID/comments/:commentID"
+
+9. POST "./posts/:postID/likes"
+
+10. DELETE "./posts/:postID"
+
+11. GET "./users/:userID/posts"
+
+12. GET "./posts/search?query=your-search-term"
+

@@ -1,0 +1,212 @@
+{
+  "1": {
+    "endpoint": "Ask for the Home Page",
+    "request": {
+      "method": "GET",
+      "URL": "/",
+      "headers": null,
+      "body": null
+    },
+    "response": {
+      "headers": {"Content-Type" : "text/html"} ,
+      "statusCode": 200,
+      "body": "HTML page with navigation links to ather pages"
+    }
+  },
+  "2": {
+    "endpoint": "Ask for a page that doesn't exist",
+    "request": {
+      "method": "GET",
+      "URL": "/notfonud",
+      "headers": null,
+      "body": null
+    },
+    "response": {
+      "headers": {"Content-Type" : "text/html"},
+      "statusCode": 404,
+      "body": "404 - Page Not Found"
+    }
+  },
+  "3": {
+    "endpoint": "Ask for the products list page",
+    "request": {
+      "method": "GET",
+      "URL": "/products",
+      "headers": null,
+      "body": null
+    },
+    "response": {
+      "headers": {"Content-Type":"text/html"},
+      "statusCode": 200,
+      "body": null
+    }
+  },
+  "4": {
+    "endpoint": "Ask for the product detail page",
+    "request": {
+      "method": "GET",
+      "URL": "/products/1",
+      "headers": null,
+      "body": null
+    },
+    "response": {
+      "headers": {"Content-Type":"text/html"},
+      "statusCode": 200,
+      "body": null
+    }
+  },
+  "5": {
+    "endpoint": "Ask for the create new product page",
+    "request": {
+      "method": "GET",
+      "URL": "/products/new",
+      "headers": null,
+      "body": null
+    },
+    "response": {
+      "headers": {"Content-Type":"text/html"},
+      "statusCode": 200,
+      "body": null
+    }
+  },
+  "6": {
+    "endpoint": "Submit a new product",
+    "request": {
+      "method": "POST",
+      "URL": "/products",
+      "headers": {"Content-Type":"application/x-www-form-urlencoded"},
+      "body":  "name=Facial+Cleansing+Brush&description=Reaches+deep+pores+to+cleanse+oil%2C+dirt%2C+and+blackheads.&price=23.99&categories=beauty"
+
+    },
+    "response": {
+      "headers": {"location":"products/2"},
+      "statusCode": 302,
+      "body": null
+    }
+  },
+  "7": {
+    "endpoint": "Ask for the edit product page",
+    "request": {
+      "method": "GET",
+      "URL": "/products/:productID/edit",
+      "headers": null,
+      "body": null
+    },
+    "response": {
+      "headers": {"Content-Type": "text/html"},
+      "statusCode": 200,
+      "body": null
+    }
+  },
+  "8": {
+    "endpoint": "Submit an edit for an existing product",
+    "request": {
+      "method": "POST",
+      "URL": "/products/2",
+      "headers": {"Content-Type":"application/x-www-form-urlencoded"},
+      "body": "name=Facial+Cleansing+Brush&description=Reaches+deep+pores+to+cleanse+oil%2C+dirt%2C+and+blackheads.&price=23.99&categories=beauty"    },
+    "response": {
+      "headers": {"location" : "/products/2"},
+      "statusCode": 302,
+      "body": null
+    }
+  },
+  "9": {
+    "endpoint": "Submit a delete for an existing product",
+    "request": {
+      "method": "DELETE",
+      "URL": "/products/2/delete",
+      "headers": {"Content-Type":"application/x-www-form-urlencoded"},
+      "body": null
+    },
+    "response": {
+      "headers":null,
+      "statusCode": 302,
+      "body": null
+    }
+  },
+  "10": {
+    "endpoint": "Submit a new review for a product",
+    "request": {
+      "method": "POST",
+      "URL": "/products/:productID/reviews",
+      "headers": { "Content-Type": "application/x-www-form-urlencoded" },
+      "body": null
+    },
+    "response": {
+      "headers": {"Content-Type":"text/html"},
+      "statusCode": 302,
+      "body": "rating=5&comment=Amazing+product"
+    }
+  },
+  "11": {
+    "endpoint": "Ask for the edit review page for a product",
+    "request": {
+      "method": "GET",
+      "URL": "/products/:productID/reviews/:reviewID/edit",
+      "headers": null,
+      "body": null
+    },
+    "response": {
+      "headers": {"Content-Type":"text/html"},
+      "statusCode": 200,
+      "body": null
+    }
+  },
+  "12": {
+    "endpoint": "Submit an edit for an existing review",
+    "request": {
+      "method": "POST",
+      "URL": "/products/2/reviews/2",
+      "headers": {"Content-Type":"application/x-www-form-urlencoded"},
+      "body": null
+    },
+    "response": {
+      "headers": {"location" : "products/2"},
+      "statusCode": 302,
+      "body": null
+    }
+  },
+  "13": {
+    "endpoint": "Submit a delete for an existing review",
+    "request": {
+      "method": "POST",
+      "URL": "/products/2/reviews/2/delete",
+      "headers": {"Content-Type":"application/x-www-form-urlencoded"},
+      "body": null
+    },
+    "response": {
+      "headers": {"location":"/products/2"},
+      "statusCode": 302,
+      "body": null
+    }
+  },
+  "14": {
+    "endpoint": "Ask for all the products in a particular category by tag of the category",
+    "request": {
+      "method": "GET",
+      "URL": "/products/category/:tag",
+      "headers": null,
+      "body": null
+    },
+    "response": {
+      "headers": {"Content-Type":"text/html"},
+      "statusCode": 200,
+      "body": "HTML page with navigation links to ather pages"
+    }
+  },
+  "15": {
+    "endpoint": "Ask for the best-selling product",
+    "request": {
+      "method": "GET",
+      "URL": "/products/best-selling",
+      "headers": null,
+      "body": null
+    },
+    "response": {
+      "headers": {"Content-Type":"text/html"},
+      "statusCode": 200,
+    "body": "HTML page showing the best-selling product"
+    }
+  }
+}
