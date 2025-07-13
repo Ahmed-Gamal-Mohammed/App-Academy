@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Express Basics/04 Route Order Matters.md",
+                "file": "01 Express Basics/05 HTTP Server vs Express Server.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04 Route Order Matters"
+              "title": "05 HTTP Server vs Express Server"
             }
           }
         ]
@@ -172,8 +172,9 @@
   },
   "active": "cfee5b8a56adafa8",
   "lastOpenFiles": [
-    "01 Express Basics/03 Route Handlers.md",
     "01 Express Basics/04 Route Order Matters.md",
+    "01 Express Basics/05 HTTP Server vs Express Server.md",
+    "01 Express Basics/03 Route Handlers.md",
     "01 Express Basics/02 Express.md",
     "01 Express Basics/01 Server Review.md",
     "01 Express Basics"
