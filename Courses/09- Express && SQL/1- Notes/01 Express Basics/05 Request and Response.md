@@ -1,4 +1,4 @@
-# The Request Object `req`
+d# The Request Object `req`
 That being said, the `req` object in Express unsurprisingly contains a lot of the same/similar properties as it's `http` counterpart (e.g. `req.method` exists for both `http` and Express). 
 
 **However, Express also contains some new properties and methods that simplify common tasks and introduce new functionalities.**
