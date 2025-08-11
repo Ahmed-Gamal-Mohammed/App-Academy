@@ -63,10 +63,10 @@ const passOnMessage = (req,res,next) =>{
 	next();
 }
 ```
-Update your route like this :
+Update your route like this: 
 ```js
 app.get("/",logTime,passOnMessage,(req,res) =>{
-	console.log("passed Message: ", req,passedMessage);
+	console.log("passed Message: ", req.passedMessage);
 	res.send("Hello World!");
 });
 ```

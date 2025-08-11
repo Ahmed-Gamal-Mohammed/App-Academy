@@ -1,0 +1,40 @@
+🔁 Quick Express Middleware Rules Recap
+
+    Normal middleware (with 3 arguments): app.use((req, res, next) => {}) or app.get(...)
+
+        Calls next() → goes to the next normal middleware.
+
+        Calls next(error) or throw error → goes to the next error-handling middleware ((err, req, res, next)).
+
+    Error-handling middleware (4 arguments): app.use((err, req, res, next) => {})
+
+        Only runs after an error is passed via next(err) or a thrown error.
+
+        next() → goes to the next error-handling middleware.
+
+    Once a response is sent (res.send()), nothing else happens — middleware after that is ignored.
+
+// Scenario #1 GET /
+First
+Fifth
+Seventh
+First
+Fifth
+Seventh
+
+// Scenario #2 GET other_resource
+First
+Fifth
+Sixth
+Seventh
+First
+Fifth
+Seventh
+
+// Scenario #3 GET /not-found
+First
+Fifth
+Seventh
+First
+Fifth
+Seventh

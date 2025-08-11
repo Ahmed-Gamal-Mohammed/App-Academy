@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "5d5441bef09b50ed",
+        "id": "1d9b8bc7ab22fa3b",
         "type": "tabs",
         "children": [
           {
-            "id": "cfee5b8a56adafa8",
+            "id": "94443f6bd5849a91",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02 Express Intermediate/01 Express Middleware.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "01 Express Middleware"
+              "title": "New tab"
             }
           }
         ]
@@ -78,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 222.50260543823242
   },
   "right": {
     "id": "c8a8bc3ac55dd84d",
@@ -95,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 Express Basics/02 Express.md",
+                "file": "02 Express Intermediate/03 Error Handling Middleware.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +100,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 02 Express"
+              "title": "Backlinks for 03 Error Handling Middleware"
             }
           },
           {
@@ -170,11 +165,16 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "cfee5b8a56adafa8",
+  "active": "12ccecd7af5919db",
   "lastOpenFiles": [
-    "express-middleware-chain.png",
-    "01 Express Basics/05 Request and Response.md",
+    "02 Express Intermediate/05 Environment Variables.md",
+    "02 Express Intermediate/05 Environment Variables.md",
+    "02 Express Intermediate/04 Routers.md",
+    "02 Express Intermediate/03 Error Handling Middleware.md",
+    "02 Express Intermediate/02 Serving Files in Express.md",
     "02 Express Intermediate/01 Express Middleware.md",
+    "02 Express Intermediate/express-middleware-chain.png",
+    "01 Express Basics/05 Request and Response.md",
     "02 Express Intermediate",
     "01 Express Basics/04 Route Order Matters.md",
     "01 Express Basics/03 Route Handlers.md",
