@@ -24,7 +24,7 @@ const validateDogInfo = (req, res, next) => {
   if (!req.body || !req.body.name) {
     const err = new Error("Dog must have a name");
     err.statusCode = 400;
-    next(err);
+    return next(err);
   }
   next();
 };
@@ -51,6 +51,9 @@ const getAllDogs = (req, res) => {
 const getDogById = (req, res) => {
   const { dogId } = req.params;
   const dog = dogs.find(dog => dog.dogId == dogId);
+  if (!dog) {
+    return res.status(404).json({ error: "Dog not found" });
+  }
   res.json(dog);
 }
 
@@ -85,3 +88,19 @@ const deleteDog = (req, res) => {
 // ------------------------------  ROUTER ------------------------------  
 
 // Your code here
+const express = require("express");
+
+const route = express.Router();
+
+route.get("/", getAllDogs);
+
+route.get("/:dogId", validateDogId, getDogById);
+
+route.post("/", validateDogInfo, createDog);
+
+route.put("/:dogId", validateDogId, validateDogInfo, updateDog);
+
+route.delete("/:dogId", validateDogId, deleteDog);
+
+
+module.exports = route;
