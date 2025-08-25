@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1d9b8bc7ab22fa3b",
+        "id": "f458727d92838d29",
         "type": "tabs",
         "children": [
           {
-            "id": "94443f6bd5849a91",
+            "id": "ed61e35223f4ed6e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "03 SQL Basics/04 SQL and Express.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "04 SQL and Express"
             }
           }
         ]
@@ -74,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.50260543823242
+    "width": 222.50260543823242,
+    "collapsed": true
   },
   "right": {
     "id": "c8a8bc3ac55dd84d",
@@ -156,6 +161,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -165,8 +171,17 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "12ccecd7af5919db",
+  "active": "ed61e35223f4ed6e",
   "lastOpenFiles": [
+    "03 SQL Basics/03 Connections.md",
+    "03 SQL Basics/04 SQL and Express.md",
+    "03 SQL Basics/02 Relationships.md",
+    "03 SQL Basics/Pasted image 20250824115330.png",
+    "03 SQL Basics/Pasted image 20250824110922.png",
+    "03 SQL Basics/01 Intro to DataBase.md",
+    "03 SQL Basics/Pasted image 20250820074341.png",
+    "03 SQL Basics/Pasted image 20250820074042.png",
+    "03 SQL Basics",
     "02 Express Intermediate/05 Environment Variables.md",
     "02 Express Intermediate/05 Environment Variables.md",
     "02 Express Intermediate/04 Routers.md",
