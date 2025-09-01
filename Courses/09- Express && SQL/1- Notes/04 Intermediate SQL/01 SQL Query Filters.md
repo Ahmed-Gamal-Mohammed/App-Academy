@@ -66,4 +66,40 @@ That will return only rows 101 - 200 of the result set. It **limits** the total 
 |NOT|Displays a record if the condition(s) is NOT TRUE.|
 |OR|TRUE if any of the conditions separated by OR is TRUE.|
 |SOME|TRUE if any of the subquery values meet the condition.|
+## Arithmetic operators
+
+|Operator|Meaning|Syntax|
+|---|---|---|
+|+|Addition|a + b|
+|-|Subtraction|a - b|
+|*|Multiplication|a * b|
+|/|Division|a / b|
+|%|Modulus (returns remainder)|a % b|
+## Comparison operators
+
+| Operator | Meaning                  | Syntax |
+| -------- | ------------------------ | ------ |
+| =        | Equals                   | a = b  |
+| !=       | Not equal to             | a != b |
+| <>       | Not equal to             | a <> b |
+| >        | Greater than             | a > b  |
+| <        | Less than                | a < b  |
+| >=       | Greater than or equal to | a >= b |
+| <=       | Less than or equal to    | a <= b |
+| !<       | Not less than            | a !< b |
+| !>       | Not greater than         | a !> b |
+## A Complete Query
+
+If you wanted to use multiple clauses in a single `SELECT` statement, the order by which you write them matters. For example, using `ORDER BY` before your `WHERE` clause would make no sense. The `WHERE` clause is filtering your results so ordering them should come after as ordering your data before filtering doesn't do anything.
+
+Here's an example of a query that uses all the clauses:
+
+```sql
+SELECT column1, column2
+FROM table
+  WHERE constraint_expression
+  ORDER BY column ASC/DESC
+  LIMIT num OFFSET num;
+```
+This ordering reflects the execution order of the clauses, which results in the least amount of wasted operation. From a given table, the results should first go through the `WHERE` filter. The 2 remaining clauses depend on the filtered result. Similarly, `ORDER BY` should come next, as using `LIMIT` before could result in lost data.
 
